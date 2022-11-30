@@ -5,6 +5,90 @@ h1 {
 
 
 h2 {
-    color: mediumseagreen;
+    color: white;
+    background-color: mediumaquamarine;
   }
 
+  .navbar-default .navbar-brand {
+    color: white ;
+    background-color: mediumaquamarine;
+}
+
+.navbar-header{
+    width:400px;
+    margin-left:75px !important;
+}
+
+
+.navbar-header .navbar-toggle .collapsed {
+  float: right;
+}
+
+.content{
+    margin-top:100px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+	font-size: 28px;
+  font-weight: 300;
+  text-align: center
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+	font-size: 24px;
+  font-weight: 300;
+  text-align: center
+}
+
+
+.box {
+  color: white;
+  background: mediumturquoise;
+}
+
+.box-left {
+  padding: 20px;
+}
+
+.box-right {
+  padding: 20px;
+}
+
+.box-single {
+  padding: 50px;
+  margin: 70px;
+}
+
+
+.table {
+  color: white;
+  background: mediumturquoise;
+  width: 100%;
+  height: 100%;
+  padding: 15px
+
+}
+
+
+@media (min-width: 1200px) {
+    .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+    .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+  .row.row-grid [class*="col-xs-"] + [class*="col-xs-"] {
+      margin-top: 0;
+  }
+}
